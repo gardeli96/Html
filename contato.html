@@ -19,10 +19,12 @@
        <h1 class="cor-azul">Contato</h1>
        <form>
            <label for="nome">Nome :</label><br>
-           <input type="text" id="nome"><br>
+           <input type="text" id="nome" onkeyup="validaNome()">
+           <div id="txtNome"></div>
            <br>
-           <label for="email"> Email :</label><br>
-           <input type="email" id="email"><br>
+           <label for="email"> Email : </label><br>
+           <input type="email" id="email" onkeyup="validaEmail()">
+           <div id="txtEmail"> </div>
            <br>
            <label for="assunto"> Assunto </label><br>
            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
@@ -33,6 +35,9 @@
 
 
        </form>
+    <div ><h1>Alterar tema escuro </h1> <button onclick="darkTheme()">Trocar</button> </div>
+    <script src="./scripts/scripts.js" ></script>
     
+
 </body>
 </html>
