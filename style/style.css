@@ -1,0 +1,22 @@
+.tamanho-padrao{
+    width: 500px;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+   color: aqua;
+}
+
+.cor-azul{
+    color: blue;
+}
